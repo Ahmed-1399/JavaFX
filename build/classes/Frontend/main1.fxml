@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="main1" prefHeight="492.0" prefWidth="632.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Next1Controller">
+   <children>
+      <ImageView blendMode="DARKEN" disable="true" fitHeight="47.0" fitWidth="45.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/bacteria.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="263.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ما هي أخر درجة حرارة قمت بقياسها لنفسك ؟">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="8.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What was the last temperature you took for yourself ?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#0e918c" layoutX="180.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Covid-19 Test" wrappingWidth="236.09619140625">
+         <font>
+            <Font name="Comic Sans MS Bold" size="33.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="m2" layoutX="22.0" layoutY="199.0" mnemonicParsing="false" text="equal 39 °C">
+         <toggleGroup>
+            <ToggleGroup fx:id="mark1" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="m1" layoutX="22.0" layoutY="172.0" mnemonicParsing="false" text="equal 37.5 °C" toggleGroup="$mark1" />
+      <ImageView fitHeight="56.0" fitWidth="64.0" layoutX="555.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/next.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="433.0" layoutY="430.0" mnemonicParsing="false" onAction="#Next1Action" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #0e918c;" text="Next" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Button>
+      <Line endX="300.0" layoutX="205.0" layoutY="250.0" startX="-100.0" />
+      <RadioButton fx:id="m3" layoutX="14.0" layoutY="338.0" mnemonicParsing="false" text="yes">
+         <toggleGroup>
+            <ToggleGroup fx:id="mark2" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="m4" layoutX="15.0" layoutY="365.0" mnemonicParsing="false" text="no" toggleGroup="$mark2" />
+      <Text layoutX="8.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Are you feeling feverish, tired, or dry cough?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="259.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="هل تشعر بالحمي أو الارهاق أو السعال الجاف؟">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

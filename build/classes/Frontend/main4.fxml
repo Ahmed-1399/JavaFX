@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="main4" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Next4Controller">
+   <children>
+      <ImageView blendMode="DARKEN" disable="true" fitHeight="47.0" fitWidth="45.0" layoutX="42.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/bacteria.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="23.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="هل تعاني من أمراض مزمنة كـ إرتفاع ضغط الدم أو أمراض بالقلب أو السكر؟" wrappingWidth="611.416015625">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="12.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Do you suffer from chronic diseases such as high blood pressure,">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#0e918c" layoutX="200.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Covid-19 Test" wrappingWidth="236.09619140625">
+         <font>
+            <Font name="Comic Sans MS Bold" size="33.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="m14" layoutX="23.0" layoutY="233.0" mnemonicParsing="false" text="no">
+         <toggleGroup>
+            <ToggleGroup fx:id="mark7" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="m13" layoutX="23.0" layoutY="206.0" mnemonicParsing="false" text="yes" toggleGroup="$mark7" />
+      <ImageView fitHeight="56.0" fitWidth="64.0" layoutX="572.0" layoutY="451.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/next.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="450.0" layoutY="460.0" mnemonicParsing="false" onAction="#next4Action" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #0e918c;" text="Next" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Button>
+      <Line endX="300.0" layoutX="225.0" layoutY="260.0" startX="-100.0" />
+      <RadioButton fx:id="m15" layoutX="26.0" layoutY="385.0" mnemonicParsing="false" text="yes">
+         <toggleGroup>
+            <ToggleGroup fx:id="mark8" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="m16" layoutX="27.0" layoutY="412.0" mnemonicParsing="false" text="no" toggleGroup="$mark8" />
+      <Text layoutX="12.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What was your last consultation with the hospital or private doctor?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="114.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="هل تخرج عادةً دون اتخاذ الإجراءات الإحتزترية مثل: ارتداء الكمامة؟">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="12.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="heart disease or diabetes?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="12.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="such as: wearing a mask?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="56.0" fitWidth="64.0" layoutX="12.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true" rotate="174.8">
+         <image>
+            <Image url="@images/next.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="77.0" layoutY="460.0" mnemonicParsing="false" onAction="#Previous3Action" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #0e918c;" text="previous" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

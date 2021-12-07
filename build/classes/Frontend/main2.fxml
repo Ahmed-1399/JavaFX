@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="main2" prefHeight="506.0" prefWidth="746.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Next2Controller">
+   <children>
+      <Text layoutX="403.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="هل تعاني من فقدان حاسة الشم والتذوق؟">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Do you suffer from loss of sense of smell and taste?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="m8" layoutX="25.0" layoutY="375.0" mnemonicParsing="false" text="no">
+         <toggleGroup>
+            <ToggleGroup fx:id="mark2" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="m7" layoutX="24.0" layoutY="348.0" mnemonicParsing="false" text="yes" toggleGroup="$mark2" />
+      <Line endX="370.0" layoutX="250.0" layoutY="260.0" startX="-100.0" />
+      <Button fx:id="next2" layoutX="563.0" layoutY="461.0" mnemonicParsing="false" onAction="#next2Action" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #0e918c;" text="Next" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="56.0" fitWidth="64.0" layoutX="685.0" layoutY="454.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/next.png" />
+         </image>
+      </ImageView>
+      <RadioButton fx:id="m5" layoutX="18.0" layoutY="201.0" mnemonicParsing="false" text="yes">
+         <toggleGroup>
+            <ToggleGroup fx:id="mark3" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="m6" layoutX="18.0" layoutY="228.0" mnemonicParsing="false" text="no" toggleGroup="$mark3" />
+      <Text fill="#0e918c" layoutX="190.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Covid-19 Test" wrappingWidth="236.09619140625">
+         <font>
+            <Font name="Comic Sans MS Bold" size="33.0" />
+         </font>
+      </Text>
+      <Text layoutX="7.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Do you suffer from pains and aches in your body along with congestion ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="248.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="هل تعاني من الآلام والأوجاع في جسمك مع الإحتقان في الأنف " wrappingWidth="504.80078125">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ImageView blendMode="DARKEN" disable="true" fitHeight="47.0" fitWidth="45.0" layoutX="32.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/bacteria.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="544.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="وبعض الشعور بالصداع؟" wrappingWidth="198.806640625">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="7.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="in the nose and some headache?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="56.0" fitWidth="64.0" layoutX="12.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@images/next.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="77.0" layoutY="460.0" mnemonicParsing="false" onAction="#previous1Action" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #0e918c;" text="previous" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

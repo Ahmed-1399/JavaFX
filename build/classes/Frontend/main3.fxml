@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="main3" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Next3Controller">
+   <children>
+      <ImageView blendMode="DARKEN" disable="true" fitHeight="47.0" fitWidth="45.0" layoutX="42.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/bacteria.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="214.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="هل تغير لون جلدك أو ظهر طفح جلدي عليه آخر فترة؟" wrappingWidth="428.80078125">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="12.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Did your skin color change or develop a rash on it last period?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#0e918c" layoutX="200.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Covid-19 Test" wrappingWidth="236.09619140625">
+         <font>
+            <Font name="Comic Sans MS Bold" size="33.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="m10" layoutX="23.0" layoutY="216.0" mnemonicParsing="false" text="no">
+         <toggleGroup>
+            <ToggleGroup fx:id="mark5" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="m9" layoutX="23.0" layoutY="189.0" mnemonicParsing="false" text="yes" toggleGroup="$mark5" />
+      <ImageView fitHeight="56.0" fitWidth="64.0" layoutX="574.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/next.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="452.0" layoutY="460.0" mnemonicParsing="false" onAction="#next3Action" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #0e918c;" text="Next" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Button>
+      <Line endX="300.0" layoutX="225.0" layoutY="260.0" startX="-100.0" />
+      <RadioButton fx:id="m11" layoutX="34.0" layoutY="358.0" mnemonicParsing="false" text="yes">
+         <toggleGroup>
+            <ToggleGroup fx:id="mark6" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="m12" layoutX="35.0" layoutY="385.0" mnemonicParsing="false" text="no" toggleGroup="$mark6" />
+      <Text layoutX="12.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Do you suffer from chronic or permanent mental or health problems?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="172.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="هل تعاني من مشاكل نفسية أو صحية مزمنة أو مستديمة؟">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="56.0" fitWidth="64.0" layoutX="12.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true" rotate="175.9">
+         <image>
+            <Image url="@images/next.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="77.0" layoutY="460.0" mnemonicParsing="false" onAction="#Previous2Action" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #0e918c;" text="previous" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

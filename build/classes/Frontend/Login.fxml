@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="loginPage" blendMode="DARKEN" prefHeight="656.0" prefWidth="549.0" style="-fx-background-color: #f5f4f4;" styleClass="frame" stylesheets="@style/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.loginController">
+   <children>
+      <TextField fx:id="username" blendMode="DARKEN" layoutX="186.0" layoutY="265.0" prefHeight="39.0" prefWidth="213.0" promptText="User Name" styleClass="frame" stylesheets="@style/style.css" />
+      <PasswordField fx:id="password" blendMode="DARKEN" layoutX="186.0" layoutY="342.0" prefHeight="39.0" prefWidth="213.0" promptText="Password" styleClass="frame" stylesheets="@style/style.css" />
+      <Button fx:id="login" layoutX="213.0" layoutY="416.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #0e918c;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="signup" blendMode="DARKEN" layoutX="423.0" layoutY="50.0" mnemonicParsing="false" onAction="#signupAction" prefHeight="39.0" prefWidth="103.0" style="-fx-background-color: #0e918c;" text="SignUp" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Button>
+      <ImageView blendMode="DARKEN" fitHeight="49.0" fitWidth="57.0" layoutX="112.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/user.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="DARKEN" fitHeight="49.0" fitWidth="57.0" layoutX="112.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/lock.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="DARKEN" fitHeight="120.0" fitWidth="139.0" layoutX="213.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/group.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="215.0" layoutY="212.0" prefHeight="39.0" prefWidth="116.0" text="User Login" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Label>
+      <ImageView blendMode="DARKEN" disable="true" fitHeight="95.0" fitWidth="91.0" layoutX="21.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/bacteria.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="loading" blendMode="DARKEN" fitHeight="57.0" fitWidth="58.0" layoutX="370.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Spin-1s-200px.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="validu_p" layoutX="124.0" layoutY="490.0" prefHeight="57.0" prefWidth="337.0" text="Invalid Username or Password !" textFill="#c91d1d">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Label>
+      <Button blendMode="DARKEN" layoutX="186.0" layoutY="547.0" mnemonicParsing="false" onAction="#forgetAction" style="-fx-background-color: #ffffff;" text="Forget Password?" textFill="#0e918c">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

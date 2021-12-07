@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="main5" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Next5Controller">
+   <children>
+      <ImageView blendMode="DARKEN" disable="true" fitHeight="47.0" fitWidth="45.0" layoutX="42.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/bacteria.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="156.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="هل تحرص علي نظافة يديك وجسمك يوميًا بإستمرار أم لا؟" wrappingWidth="467.416015625">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="12.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Are you keen to clean your hands and body daily, or not?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#0e918c" layoutX="200.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Covid-19 Test" wrappingWidth="236.09619140625">
+         <font>
+            <Font name="Comic Sans MS Bold" size="33.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="m18" layoutX="23.0" layoutY="207.0" mnemonicParsing="false" text="no">
+         <toggleGroup>
+            <ToggleGroup fx:id="mark9" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="m17" layoutX="23.0" layoutY="180.0" mnemonicParsing="false" text="yes" toggleGroup="$mark9" />
+      <Button layoutX="380.0" layoutY="427.0" mnemonicParsing="false" onAction="#resultAction" prefHeight="46.0" prefWidth="158.0" style="-fx-background-color: #000000;" text="Show Result" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Button>
+      <Line endX="300.0" layoutX="225.0" layoutY="250.0" startX="-100.0" />
+      <RadioButton fx:id="m19" layoutX="23.0" layoutY="368.0" mnemonicParsing="false" text="yes">
+         <toggleGroup>
+            <ToggleGroup fx:id="mark10" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="m20" layoutX="24.0" layoutY="395.0" mnemonicParsing="false" text="no" toggleGroup="$mark10" />
+      <Text layoutX="12.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Have you previously had the disease in its first wave since March 2020?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="46.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="هل تعرضت للإصابة بالمرض مُسبقًا في موجته الأولي منذ مارس 2020؟">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button layoutX="67.0" layoutY="450.0" mnemonicParsing="false" onAction="#Previous4Action" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #0e918c;" text="previous" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="56.0" fitWidth="64.0" layoutX="2.0" layoutY="443.0" pickOnBounds="true" preserveRatio="true" rotate="175.9">
+         <image>
+            <Image url="@images/next.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

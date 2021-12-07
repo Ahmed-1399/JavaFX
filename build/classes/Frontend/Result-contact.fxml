@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="Resultcontact" prefHeight="543.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ResultController">
+   <children>
+      <Text fill="#0e918c" layoutX="204.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Covid-19 Test" wrappingWidth="236.09619140625">
+         <font>
+            <Font name="Comic Sans MS Bold" size="33.0" />
+         </font>
+      </Text>
+      <ImageView blendMode="DARKEN" disable="true" fitHeight="47.0" fitWidth="45.0" layoutX="46.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/bacteria.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="156.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your corona infection rate" textAlignment="CENTER" wrappingWidth="303.09619140625">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Text>
+      <Text layoutX="471.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" : نصائح عامة ">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="229.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="الفيتامينات والمكملات المعدنية لا يمكنها أن تعالج كوفيد-19">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="163.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="عقار هيدروكسي كلوروكوين ليس له أي فوائد سريرية في علاج كوفيد-19">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="321.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="الماء أو السباحة لا ينقلان فيروس كوفيد-19">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="88.0" fitWidth="104.0" layoutX="37.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/be_salef.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="202.0" layoutY="318.0" mnemonicParsing="false" onAction="#ShowOldResultsAction" prefHeight="24.0" prefWidth="211.0" style="-fx-background-color: #0e918c;" text="Show Old Results" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Button>
+      <Text layoutX="338.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\%" textAlignment="CENTER" wrappingWidth="45.0">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Text>
+      <Label fx:id="taInformation" layoutX="265.0" layoutY="211.0" prefHeight="58.0" prefWidth="73.0">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
